@@ -1,0 +1,10 @@
+# am as ca ch jm js ma ms sa
+# usage: big am
+
+pfx=$1
+for i in a b c d e f g h i j k l m n o p q r s t u v w x y z
+do
+    ./npq $pfx$i >x.out$pfx$i
+    echo $pfx$i `wc x.out$pfx$i`
+done
+exit
