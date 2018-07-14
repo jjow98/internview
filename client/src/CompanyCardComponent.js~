@@ -1,4 +1,4 @@
-/* Written by Jason Xu, Spring 2018
+/* Written by Jason Xu
 Creates each individual company card that is rendered after receiving search results
 Given parameters: 
 - a data array, which contains all entries that fit the search query
